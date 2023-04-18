@@ -1,0 +1,12 @@
+.home_posts {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color: #f0f2f5;
+    /*
+    width: 1200px;
+    */
+}
+
+.my_posts {
+    padding: 20px;
+}

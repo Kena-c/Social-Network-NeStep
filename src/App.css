@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template-areas:
+  "h h"
+  "c c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 3fr 5fr ;
+  /*
+  grid-gap: 30px;
+  */
+  /*
+  background-color: #f0f2f5;
+  */
+  margin: 0 auto;
+}
+
+/*  width: 1200px;
+  margin: 0 auto;*/
+  .app_c {
+    grid-area: c;
+    background-color: white;
+  }

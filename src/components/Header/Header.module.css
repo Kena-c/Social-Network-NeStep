@@ -1,0 +1,41 @@
+.app_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: white;
+    grid-auto-columns: minmax(300px, auto);
+    align-items: center;
+    grid-area: h;
+    padding: 20px;
+    border-bottom-style: inset;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.head_center {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 30px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.head_center_1 {
+    border-width: medium;
+    border-color: black;
+}
+
+.head_right {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+}
+
+.item {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: #80b7b3;
+}
+

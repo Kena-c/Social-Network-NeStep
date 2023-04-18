@@ -1,0 +1,30 @@
+.marketplace {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.market {
+    width: 150px;
+    height: 250px;
+}
+
+.market img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.marketplace_1 {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.MarketplaceSidebar {
+    border-right-style: inset;
+    height: 700px;
+}
+
+p {
+    color: dodgerblue;
+    text-decoration: underline;
+}

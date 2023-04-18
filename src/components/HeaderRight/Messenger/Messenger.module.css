@@ -1,0 +1,12 @@
+.enlikImg {
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.enlik {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+}
